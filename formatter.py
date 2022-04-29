@@ -107,19 +107,3 @@ def arithmetic_arranger(problems, show=False):
         print(linha_saida)
 
 print(arithmetic_arranger(["23 - 5", "6743 - 6755", "324 + 8888", "456 - 78", "67 - 900"], True))
-
-"""
-lista = list()
-mostrar = False
-i = 5
-while i > 0:
-    problema = input("Entre com um cálculo de soma ou subtração."
-                     "\nLembre-se de utilizar espaços ao redor do sinal de operação.\n"
-                     "Digite 'sair' para fechar o programa")
-    if problema == "sair": break
-    lista.append(problema)
-    i -= 1
-    print(i, "operações restantes")
-
-print(arithmetic_arranger(lista, True))
-"""
